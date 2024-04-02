@@ -5,5 +5,14 @@ export const load = {
     assets:()=>{
         loadSprite("forest-background","./assets/Forest_Background_0.png")
         loadSprite("logo","./assets/Logo.png")
+
+        loadSprite("up", "./assets/Arrow_Up_Key_Dark.png")
+        loadSprite("down", "./assets/Arrow_Down_Key_Dark.png")
+        loadSprite("left", "./assets/Arrow_Left_Key_Dark.png")
+        loadSprite("right", "./assets/Arrow_Right_Key_Dark.png")
+        loadSprite("space", "./assets/Space_Key_Dark.png")
+    },
+    sounds:()=>{
+        loadSound("confirm-ui","./sounds/confirm-ui.wav")
     }
 }

@@ -7,6 +7,7 @@ kaboom({
     letterbox:true
 })
 load.fonts()
+load.sounds()
 load.assets()
 
 const scenes = {
@@ -14,7 +15,7 @@ const scenes = {
         uiManager.displayMainMenu()
     },
     controls:()=>{
-
+        uiManager.displayControlsMenu()
     },
     1 : () => {
 
