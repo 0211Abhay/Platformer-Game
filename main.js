@@ -32,9 +32,17 @@ const scenes = {
         player.enablePassThrough()
         player.enableCoinPickUp()
         player.update()
+
+        
         attachCamera(player.gameObj,0,200)
 
         level1.drawWaves("water","wave")
+        uiManager.addDarkBg()
+        uiManager.displayCoinCount()
+        player.updateCoinCount(uiManager.coinCountUI)
+
+        uiManager.displayLivesCount()
+        player.updateLivesCount(uiManager.livesCountUI)
     },
     2 : () => {
 

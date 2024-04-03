@@ -6,13 +6,14 @@ export const load = {
         loadSprite("forest-background","./assets/Forest_Background_0.png")
         loadSprite("logo","./assets/Logo.png")
 
-        
+        loadSprite("star-icon","./assets/Stars_Ui.png")
+
         loadSprite("up", "./assets/Arrow_Up_Key_Dark.png")
         loadSprite("down", "./assets/Arrow_Down_Key_Dark.png")
         loadSprite("left", "./assets/Arrow_Left_Key_Dark.png")
         loadSprite("right", "./assets/Arrow_Right_Key_Dark.png")
         loadSprite("space", "./assets/Space_Key_Dark.png")
-
+        loadSprite("coin-icon","./assets/Coins_Ui.png")
         loadSprite("water", "./assets/Water.png", {
             sliceX: 8,
             sliceY: 1,
