@@ -7,11 +7,7 @@ export const load = {
         loadSprite("logo","./assets/Logo.png")
 
         loadSprite("star-icon","./assets/Stars_Ui.png")
-<<<<<<< Updated upstream
-
-=======
         loadSprite("castle-background","./assets/Castle_BackGround_0.png")
->>>>>>> Stashed changes
         loadSprite("up", "./assets/Arrow_Up_Key_Dark.png")
         loadSprite("down", "./assets/Arrow_Down_Key_Dark.png")
         loadSprite("left", "./assets/Arrow_Left_Key_Dark.png")
@@ -85,8 +81,6 @@ export const load = {
               mm: 8,
             },
           })
-<<<<<<< Updated upstream
-=======
           loadSprite("brick-tileset","./assets/Brick_Tileset.png",{
             sliceX:3,sliceY:4,anims:{
                 tl:0,
@@ -167,7 +161,6 @@ export const load = {
         },
       },
     })
->>>>>>> Stashed changes
     },
     sounds:()=>{
         loadSound("confirm-ui","./sounds/confirm-ui.wav")
