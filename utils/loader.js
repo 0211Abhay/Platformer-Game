@@ -7,7 +7,11 @@ export const load = {
         loadSprite("logo","./assets/Logo.png")
 
         loadSprite("star-icon","./assets/Stars_Ui.png")
+<<<<<<< Updated upstream
 
+=======
+        loadSprite("castle-background","./assets/Castle_BackGround_0.png")
+>>>>>>> Stashed changes
         loadSprite("up", "./assets/Arrow_Up_Key_Dark.png")
         loadSprite("down", "./assets/Arrow_Down_Key_Dark.png")
         loadSprite("left", "./assets/Arrow_Left_Key_Dark.png")
@@ -81,6 +85,89 @@ export const load = {
               mm: 8,
             },
           })
+<<<<<<< Updated upstream
+=======
+          loadSprite("brick-tileset","./assets/Brick_Tileset.png",{
+            sliceX:3,sliceY:4,anims:{
+                tl:0,
+                tm:1,
+                tr:2,
+                ml:3,
+                mm:4,
+                mr:5,
+                bl:6,
+                bm:7,
+                br:8
+            }
+        })
+        loadSprite("brick-oneway-tileset", "./assets/Brick_Oneway.png", {
+            sliceX: 3,
+            sliceY: 4,
+            anims: {
+              tl: 0,
+              tm: 1,
+              tr: 2,
+              ml: 3,
+              mm: 4,
+              mr: 5,
+              bl: 6,
+              bm: 7,
+              bm: 8,
+            },
+          })
+    loadSprite("sky-background-0", "./assets/Sky_Background_0.png")
+    loadSprite("sky-background-1", "./assets/Sky_Background_1.png")
+    loadSprite("sky-background-2", "./assets/Sky_Background_2.png")
+
+    loadSprite("rock-tileset", "./assets/Grass_Rock_Tileset.png", {
+      sliceX: 3,
+      sliceY: 4,
+      anims: {
+        tl: 0,
+        tm: 1,
+        tr: 2,
+        ml: 3,
+        mm: 4,
+        mr: 5,
+        bl: 6,
+        bm: 7,
+        br: 8,
+      },
+    })
+    loadSprite("rock-oneway-tileset", "./assets/Grass_Rock_Oneway.png", {
+      sliceX: 3,
+      sliceY: 4,
+      anims: {
+        tl: 0,
+        tm: 1,
+        tr: 2,
+        ml: 3,
+        mm: 4,
+        mr: 5,
+        bl: 6,
+        bm: 7,
+        br: 8,
+      },
+    })
+    loadSprite("clouds", "./assets/Clouds.png", {
+      sliceX: 8,
+      sliceY: 1,
+      anims: {
+        wave: {
+          from: 0,
+          to: 7,
+          speed: 16,
+          loop: true,
+        },
+        "wave-reversed": {
+          from: 7,
+          to: 0,
+          speed: 16,
+          loop: true,
+        },
+      },
+    })
+>>>>>>> Stashed changes
     },
     sounds:()=>{
         loadSound("confirm-ui","./sounds/confirm-ui.wav")
